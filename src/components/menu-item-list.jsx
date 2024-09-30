@@ -1,22 +1,23 @@
 import React from "react";
-import { ReactComponent as NewMenuItem } from "../images/new-menu-item.svg";
-import { ReactComponent as BurgerMenuItem } from "../images/burger-menu-item.svg";
-import { ReactComponent as FingerfoodMenuItem } from "../images/fingerfood-menu-item.svg";
-import { ReactComponent as DessertMenuItem } from "../images/dessert-menu-item.svg";
-import { ReactComponent as KidsMenuItem } from "../images/kids-menu-item.svg";
-import { ReactComponent as SaladsMenuItem } from "../images/salads-menu-item.svg";
-import { ReactComponent as BeverageMenuItem } from "../images/beverage-menu-item.svg";
+import { ReactComponent as NewMenuImage } from "../images/new-menu-image.svg";
+import { ReactComponent as BurgerMenuImage } from "../images/burger-menu-image.svg";
+import { ReactComponent as FingerfoodMenuImage } from "../images/fingerfood-menu-image.svg";
+import { ReactComponent as DessertMenuImage } from "../images/dessert-menu-image.svg";
+import { ReactComponent as KidsMenuImage } from "../images/kids-menu-image.svg";
+import { ReactComponent as SaladsMenuImage } from "../images/salads-menu-image.svg";
+import { ReactComponent as BeverageMenuImage } from "../images/beverage-menu-image.svg";
+import MenuItem from "./menu-item";
 
 function MenuItemList() {
-    return <>
-        <NewMenuItem fill="#C6C6C6" />
-        <BurgerMenuItem fill="#C6C6C6"/>
-        <FingerfoodMenuItem fill="#C6C6C6"/>
-        <DessertMenuItem fill="#C6C6C6"/>
-        <KidsMenuItem fill="#C6C6C6"/>
-        <SaladsMenuItem fill="#C6C6C6"/>
-        <BeverageMenuItem fill="#C6C6C6"/>
-    </>
+    return <div className="menu-item-list">
+        <MenuItem text={"Nouveau"} svgImage={<NewMenuImage fill="#C6C6C6" />} />
+        <MenuItem text={"Burgers"} svgImage={<BurgerMenuImage fill="#C6C6C6" />} />
+        <MenuItem text={"Fingerfood"} svgImage={<FingerfoodMenuImage fill="#C6C6C6" />} />
+        <MenuItem text={"Desserts"} svgImage={<DessertMenuImage fill="#C6C6C6" />} />
+        <MenuItem text={"Kids"} svgImage={<KidsMenuImage fill="#C6C6C6" />} />
+        <MenuItem text={"Salades"} svgImage={<SaladsMenuImage fill="#C6C6C6" />} />
+        <MenuItem text={"Boissons"} svgImage={<BeverageMenuImage fill="#C6C6C6" />} />
+    </div>
 }
 
 export default MenuItemList;
