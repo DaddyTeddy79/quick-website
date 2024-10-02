@@ -4,22 +4,29 @@ body {
 }
 
 .menu-item-list {
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
 .menu-item {
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 1.25rem;
 }
 
 .menu-item-text {
+  /* border: 1px solid black; */
   margin-top: 0.5rem;
   font-size: 0.9rem;
+}
+
+.menu-item-image {
+  /* border: 1px solid black; */
+  padding: 0 1.5rem;
 }
 
 .menu-item:hover {
