@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 6.5%;
   font-family: 'Roboto', 'Segoe UI', 'Oxygen'
 }
 
@@ -10,7 +10,6 @@ body {
 }
 
 .main-navigation {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   width: 100%
@@ -21,10 +20,17 @@ body {
 }
 
 .left-navigation {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 900;
   display: flex;
-  justify-content: space-around;
+}
+
+.left-navigation span {
+  margin-right: 2rem
+}
+
+.right-navigation {
+  display: flex;
 }
 
 .my-quick-icon {
@@ -49,7 +55,6 @@ body {
 }
 
 .menu-item-list {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
