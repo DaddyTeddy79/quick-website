@@ -6,7 +6,7 @@ body {
 .main-header {
   display: grid;
   grid-template-columns: 107px 1fr;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .main-navigation {
@@ -85,6 +85,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding-bottom: 1.1rem;
 }
 
 .menu-item {
@@ -97,7 +98,7 @@ body {
 .menu-item:nth-child(5) {
   text-decoration: underline #C8102E;
   text-underline-offset: 0.25rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 900;
 
   svg {
@@ -106,7 +107,7 @@ body {
 }
 
 .menu-item-text {
-  margin-top: 0.4rem;
+  margin-top: 0.2rem;
 }
 
 .menu-item-image {
@@ -116,7 +117,7 @@ body {
 .menu-item:hover {
   text-decoration: underline #C8102E;
   text-underline-offset: 0.25rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 900;
   cursor: pointer;
 }
