@@ -1,5 +1,4 @@
 import React from "react";
-import MenuItemList from "./menu-item-list";
 import { ReactComponent as QuickLogo } from "../images/logo.svg";
 import LeftNavigation from "./left-navigation";
 import RightNavigation from "./right-navigation";
@@ -12,7 +11,6 @@ function MainHeader() {
                 <LeftNavigation />
                 <RightNavigation />
             </nav>
-            <MenuItemList />
         </header>
     </>
 }

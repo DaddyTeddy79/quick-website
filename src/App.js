@@ -1,4 +1,4 @@
-import MainContent from './components/main-content';
+import MainContent from './contents/main-content';
 import MainFooter from './components/main-footer';
 import MainHeader from './components/main-header';
 import './style/App.css';
